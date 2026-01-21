@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all .2s ease;
+  scrollbar-width: none;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  -webkit-tap-highlight-color: transparent;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  background: #EBF3F7;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1{
+  font-weight: 700;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+h2{
+  font-size: clamp(28px, 19vw, 36px);
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+h3{
+  font-size: clamp(24px, 19vw, 28px);
+  line-height: 100%;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+h4{
+  font-size: clamp(32px, 19vw, 48px);
+  line-height: clamp(32px, 19vw, 48px);
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+
+h5{
+  font-weight: 700;
+  font-size: clamp(24px, 19vw, 32px);
+  line-height: clamp(32px, 19vw, 40px);
+  letter-spacing: -0.5px;
+}
+
+
