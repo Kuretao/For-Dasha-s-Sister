@@ -5,6 +5,6 @@ import react from '@astrojs/react';
 export default defineConfig({
   integrations: [react()],
   output: 'static',
-  site: 'https://kuretao.github.io/For-Dasha-s-Sister/',
+  site: 'https://kuretao.github.io/For-Dasha-s-Sister',
   base: '/',
 });
